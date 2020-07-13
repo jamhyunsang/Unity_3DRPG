@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 62edee6a418cc754dae21f4e6ca50cc0
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Bip01
+  - first:
+      1: 100004
+    second: Bip01 Pelvis
+  - first:
+      1: 100006
+    second: Bip01 Spine
+  - first:
+      1: 100008
+    second: Bip01 Spine1
+  - first:
+      1: 100010
+    second: Bone06
+  - first:
+      1: 100012
+    second: Bone06(mirrored)
+  - first:
+      1: 100014
+    second: Bone08
+  - first:
+      1: 100016
+    second: Bone08(mirrored)
+  - first:
+      1: 100018
+    second: Wings
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Bip01
+  - first:
+      4: 400004
+    second: Bip01 Pelvis
+  - first:
+      4: 400006
+    second: Bip01 Spine
+  - first:
+      4: 400008
+    second: Bip01 Spine1
+  - first:
+      4: 400010
+    second: Bone06
+  - first:
+      4: 400012
+    second: Bone06(mirrored)
+  - first:
+      4: 400014
+    second: Bone08
+  - first:
+      4: 400016
+    second: Bone08(mirrored)
+  - first:
+      4: 400018
+    second: Wings
+  - first:
+      43: 4300000
+    second: Wings
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Wings
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Archu
+    second: {fileID: 2100000, guid: 6f9a4affea9b7c34c87d85a96386410f, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Archu_Wings(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01
+      parentName: Archu_Wings(Clone)
+      position: {x: 0.000000009171586, y: 4.538603, z: 0.20982146}
+      rotation: {x: -0.5000003, y: 0.4999997, z: 0.4999997, w: 0.5000003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 Pelvis
+      parentName: Bip01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.49999964, y: 0.50000036, z: 0.49999964, w: 0.50000036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 Spine
+      parentName: Bip01 Pelvis
+      position: {x: -0.516129, y: 0.056012675, z: 0.0000005603779}
+      rotation: {x: -0.0000021194735, y: 0.00000073538496, z: -0.06250469, w: 0.99804467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 Spine1
+      parentName: Bip01 Spine
+      position: {x: -0.8526349, y: -0.0008074939, z: -0.0000000022396307}
+      rotation: {x: 0.0070090257, y: 0.11627944, z: -0.18130374, w: 0.97650343}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bone06
+      parentName: Bip01 Spine1
+      position: {x: -0.72526836, y: -1.064249, z: 0.39460468}
+      rotation: {x: 0.7242966, y: 0.33403468, z: -0.5159975, w: 0.31234887}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.000001}
+    - name: Bone08
+      parentName: Bone06
+      position: {x: -1.8454003, y: 0.00002670288, z: 0.00000029802322}
+      rotation: {x: 0.00000006905292, y: 0.000000015381348, z: -0.17870736, w: 0.9839023}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Bone06(mirrored)
+      parentName: Bip01 Spine1
+      position: {x: -0.7252736, y: -1.0642508, z: -0.39315987}
+      rotation: {x: 0.28233722, y: -0.12029821, z: 0.10496062, w: 0.94593734}
+      scale: {x: 1.0000011, y: 1.0000002, z: 0.99999964}
+    - name: Bone08(mirrored)
+      parentName: Bone06(mirrored)
+      position: {x: -1.8454003, y: -0.000030517578, z: -0.00000008940697}
+      rotation: {x: -0.00000045736923, y: 0.00000017297187, z: 0.17870753, w: 0.9839022}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: Wings
+      parentName: Archu_Wings(Clone)
+      position: {x: -0.0037841797, y: -0.000051745286, z: -2.2618613e-12}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
